@@ -1,0 +1,385 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+.container {
+    overflow:hidden;
+}
+/* pre-defined usable clases */
+.flex {
+    display:flex;
+    align-items: center;
+}
+
+.border:hover {
+    border:2px solid orange;    
+}
+/* Top Panel Nav-bar */
+.nav-bar {
+    background-color: #191919;
+    justify-content: space-evenly;
+    position: relative;
+}
+.nav-icon {
+    height:62px;
+    width:60px;
+    justify-content:center;
+    padding: 10px 10px 10px 10px;
+}
+/* left div nav panel */
+.nav-left {
+    height:55px;
+    width:300px;
+    justify-content: space-evenly;
+    margin-right: 20px;
+    /* padding: 10px 10px 10px 10px; */
+    /* border:1px solid white; */
+}
+/* trade box 1 */
+.trade {
+    height:40px;
+    width:55px;
+    color: white;
+    font-size: small;
+    font-weight: 100;
+    background-color:#3EB489;
+    justify-content: center;
+    border-radius: 3px;
+    /* padding: 10px 10px 10px 10px; */
+}
+
+
+/* user wallet account box 2*/
+.wallet {
+    color:white;
+    height:40px;
+    width:150px;
+    font-size: medium;
+    font-weight: 100;
+    border-radius: 3px;
+    border:1px solid white;
+    justify-content: center;
+    /* padding: 10px 10px 10px 10px; */
+}
+
+/* digital currency box 3 */
+.digi-currency {
+    color:white;
+    font-size: large;
+    height:40px;
+    width:60px;
+    border-radius: 3px;
+    justify-content: center;
+    border:1px solid white;
+    /* padding: 10px 10px 10px 10px; */
+}
+/* empty div */
+.empty {
+    height:40px;
+    width:5%;
+}
+
+/* contents of nav links */
+ul {
+    list-style: none;
+}
+
+.nav-right {
+    flex-basis:630px;
+    
+}
+
+.nav-right ul {
+    gap:20px;
+
+}
+/* .nav-right ul a{
+    color:white;
+    
+} */
+
+a.links, a:hover {
+    color:orange;
+    transition:0.5s;
+}
+
+/* navigation bar */
+.nav-toggle {
+    justify-content:center;
+    height:40px;
+    width:30px;
+    margin-right: 10px;
+    display:none;
+}
+
+/*  website body */
+ .web-body {
+    background-color: #0f0f0f;
+    height:400px;
+    padding-left: 50px;
+    padding-top:50px;
+    padding-right: 50px;
+ }
+
+ .top-div {
+    color:white;
+    font-size: x-large;
+    /* padding-top: 50px; */
+    /* padding-left: 50px; */
+ }
+
+ .para {
+    font-size: large;
+    font-weight: 100;
+    color: whitesmoke;
+    width:400px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+ }
+
+ .button {
+    background-color:#3EB489;
+    color: whitesmoke;
+    height:30px;
+    width:150px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+ }
+
+ /* middle body */
+
+.middle-div {
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 10px;;
+    height:100px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box1 {
+    height:80px;
+    width:300px;
+    align-items: center;
+    justify-content: space-evenly;
+    border:2px solid whitesmoke;
+    border-radius: 5px;
+}
+
+.box2 {
+    height:80px;
+    width:300px;
+    align-items: center;
+    justify-content: space-evenly;
+    border:2px solid whitesmoke;
+    border-radius: 5px;
+}
+
+.box3 {
+    height:80px;
+    width:300px;
+    align-items: center;
+    justify-content: space-evenly;
+    border:2px solid whitesmoke;
+    border-radius: 5px;
+}
+/* seperating section line */
+
+.line {
+    background-color: white;
+    border: 1px solid white;
+}
+
+/* lower section */
+
+.lower-section {
+    background-color: #0f0f0f;
+    height:600px;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* text-wrap: wrap; */
+}
+
+.lower1 {
+    justify-content: space-evenly;
+    height:150px;
+    padding-bottom: 20px;
+    /* flex-wrap: wrap; */
+}
+
+.box4 {
+    height:100px;
+    width:350px;
+}
+.icon2 {
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+}
+
+.box5 {
+    height:100px;
+    width:350px;
+}
+.icon3 {
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+}
+
+.box6 {
+    height:100px;
+    width:350px;
+}
+.icon4 {
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+}
+
+/* lower floor2 */
+.lower2 {
+    height:300px;
+    /* flex-wrap: wrap; */
+}
+
+.last-floor {
+    padding-top: 20px;
+    height:250px;
+    justify-content: space-evenly;
+}
+
+.icon5 {
+    width:100px;
+    justify-content:space-evenly;
+    padding-bottom:10px;
+}
+
+.icon6 {
+    width:100px;
+    justify-content:space-evenly;
+    padding-bottom: 10px;
+}
+
+.open {
+    height:60px;
+    width:250px;
+    justify-content: space-evenly;
+}
+.open1 {
+    height:60px;
+    width:250px;
+    justify-content: space-evenly;
+}
+
+.button1{
+    background-color: #3EB489;
+    height:50px;
+    width:100px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+.button2{
+    background-color: white;
+    height:50px;
+    width:100px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+.box7 {
+    border: 1px solid white;
+    width:400px;
+    height:215px;
+    /* flex-wrap: wrap; */
+}
+
+.box8 {
+    border: 1px solid white;
+    height:215px;
+    width:400px;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+/* seperating section line */
+
+.line1 {
+    background-color: white;
+    border: 1px solid white;
+}
+
+/* lower-panel */
+
+.lower-panel {
+    background-color: #191919;
+    height:200px;
+}
+
+.icon7 {
+    padding-top: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.all-icons {
+    padding-top: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    color:blue;
+    font-size: x-large;
+}
+
+.final {
+    padding-top: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+.final ul {
+    gap:25px;
+}
+
+.final ul a{
+    color:white;
+}
+
+@media screen and (max-width:991px){
+    .nav-toggle {
+        display:block;
+        margin-top: 22px;
+        margin-right:15px;
+        align-items: center;
+    }
+
+    .empty {
+        width:5%;
+    }
+    .nav-right {
+        position:absolute;
+        background-color:#0f0f0f;
+        right:-100%;
+        top:100%;
+        width:100%;
+        padding-block:20px;
+        transition: 0.2s ease-in-out;
+    }
+
+    .nav-right.active {
+        right:0;
+    }
+
+
+    .nav-right ul {
+        flex-direction:column;
+    }
+    .nav-bar {
+        overflow: initial;   
+    }
+
+}
